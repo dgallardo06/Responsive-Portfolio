@@ -185,3 +185,31 @@ figcaption {
 .margin {
 	margin: 40px;
 }
+/*******************Media Queries*********************/
+
+@media only screen and (max-width: 980px) {
+    nav {
+		width: 700px;
+	}
+
+	section {
+		width: 440px;
+		height: 900px;
+	}
+
+	.bioPic {
+		margin: 40px 105px;
+	}
+
+	p {
+		margin: 40px 40px 0px 40px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 640px) {
+    
+}
