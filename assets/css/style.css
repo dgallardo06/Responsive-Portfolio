@@ -207,9 +207,78 @@ figcaption {
 }
 
 @media only screen and (max-width: 768px) {
-    
+    nav {
+		margin-left: 20px;
+	}
+
+	section {
+		margin-left: 20px;
+		margin-right: 20px;
+		width: 728px;
+		height: 500px;
+		float: none;
+
+	}
+
+	.bioPic {
+		margin: 40px;
+	}
+
+	p {
+		margin: 40px 40px 0px 0px;
+	}
+
+	aside {
+		margin: 40px 20px;
+		width: 728px;
+		float: none;
+	}
+
+	h3 {
+		text-align: left;
+		padding-left: 40px;
+	}
 }
 
 @media only screen and (max-width: 640px) {
+	header {
+		position: static;
+	}
+
+	nav {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	h1 {
+		width: 100%;
+	}
+
+	li{
+		margin: 20px 75px;
+	}
+
+	section {
+		width: 95%;
+		height: 100%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.bioPic {
+		height: 50%;
+		width: 50%;
+		margin: 40px 150px;
+	}
+
+	p {
+		margin: 40px;
+	}
+
+	aside {
+		width: 95%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
     
 }
