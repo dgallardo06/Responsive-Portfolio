@@ -222,6 +222,13 @@ figcaption {
 		padding-top: 20px;
 		height: 40px;
 	}
+	
+	/**Contact**/
+	.conForm {
+		height: 100%;
+		display: inline-block;
+	}
+		
 }
 
 @media only screen and (max-width: 768px) {
@@ -266,7 +273,7 @@ figcaption {
 	figcaption {
 		width: 50%;
 		margin: 0;
-	}
+	}		
 }
 
 @media only screen and (max-width: 640px) {
